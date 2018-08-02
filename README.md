@@ -12,3 +12,6 @@ to display the notifications)
 notificationConsoleController.js (
 notificationConsoleHelper.js
 notificationConsole.css 
+
+3-Use CometD into the lightning console app (CometD is a library to receive messages in a pub/sub 
+download 
