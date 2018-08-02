@@ -1,6 +1,6 @@
 # NotificationsApp-bettween-Heroku-and-SFDC-console--
 
-The following instant messaging app makes possible to send instant notifications between a heroku app (which sends notification messages)  and the console in SFDC (which will display such messages). 
+The following instant messaging app makes possible to send instant notifications between a heroku app (which sends notification messages)  and a console app (built with lightning components) in SFDC which will display such messages. 
 
 To achieve this we need these steps:
 
@@ -10,8 +10,8 @@ To achieve this we need these steps:
 
 notificationConsole.cmp (consisting on a header, counter of notifications, the buttons to delete or mute the notifications and the list
 to display the notifications) 
-notificationConsoleController.js (
-notificationConsoleHelper.js (
+notificationConsoleController.js (hard coded messages to indicate app starts, control to mute/unmute pop-ups when notifications arrive) 
+notificationConsoleHelper.js (display the intermmitent pop-ups whne notifications arrive)
 notificationConsole.css (dimensions of the console app)
 
 3-Incorporate the CometD funtionality into the console app. THe CometD library enables to receive messages in a pub/sub way over the web, in this way the console will be able to display the messages. 
