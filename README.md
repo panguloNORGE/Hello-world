@@ -4,8 +4,8 @@ The following instant messaging app makes possible to send instant notifications
 
 To achieve this we need these steps:
 
-1- Define an event to send a notification message , this is done using SFDC platform events (inspired in Apache kafka)
-2- Build the console app using lightning components: 
+1- Define an event which will post a notification message whenever the event occurs, this is done using the SFDC functionality called platform events (inspired in Apache kafka). See the 
+2- Build the console app using lightning components to display the: 
 
 notificationConsole.cmp (consisting on a header, counter of notifications, the buttons to delete or mute the notifications and the list
 to display the notifications) 
